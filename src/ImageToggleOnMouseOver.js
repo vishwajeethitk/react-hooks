@@ -7,7 +7,7 @@ const ImageToggleOnMouseOver = ({primaryImg, secondaryImg}) => {
             onMouseOver={() => imageRef.current.src = secondaryImg}
             onMouseOut={() => imageRef.current.src = primaryImg}
             ref={imageRef} 
-            style={{width: '500px', height: '500px' }}/>
+            style={{width: '350px', height: '350px'}}/>
     );
 }
 
